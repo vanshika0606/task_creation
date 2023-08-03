@@ -1,0 +1,38 @@
+
+.update-form{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+ 
+}
+.update-form form{
+    position: absolute;
+    top:100px;
+    border: 4px black solid;
+    width:400px;
+    display: flex;
+    padding:10px;
+    border-radius: 50px;
+    background-color: rgb(26, 173, 114);
+    
+}
+.update-form input{
+    width:300px;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .update-form form{
+        width:70vw;
+    }
+    .update-form input{
+        width:60vw;
+    }
+    .update-button{
+        width:120px;
+    }
+    
+  }

@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(208, 160, 81);
+   
+}
+.none{
+    display: none;
+}
+.form-body{
+    
+    margin-top: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    align-items: center;
+    margin: auto;
+}
+.form input{
+    outline: none;
+    height:25px;
+    border-radius: 8px;
+    border:3px rgb(0, 0, 0) solid;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    width:430px;
+    font-weight: bold;
+}
+.form textarea{
+    outline: none;
+    width:430px;
+    border-radius: 8px;
+    border:3px rgb(0, 0, 0) solid;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.submit{
+    width:200px;
+    padding: 10px 5px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(12, 16, 134);
+}
+.submit:hover{
+   background-color: rgb(43, 50, 255);
+   
+}
+.show_all{
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 117, 80);
+}
+.show_all:hover{
+    background-color: rgb(81, 232, 182);
+    color: black;
+}
+.task-add{
+    margin-top:20px;
+    font-size: 17px;
+    font-weight: bold;
+    border:3px black solid;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color:rgb(240, 242, 103);
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 10px red;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: rgb(81, 94, 108);
+    background-image: none;
+    cursor: pointer;
+    font-size: inherit;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #1e466f;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #e0ae5f;
+  }
